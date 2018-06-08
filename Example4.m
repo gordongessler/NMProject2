@@ -15,5 +15,5 @@ xlabel(' x ')
 ylabel(' y ')
 hold off;
 [x0,k]=Homeier(p,10,0.0001,100)
-diff=polyval(f,x0)
+diff=Cheby(p,x0)
 print -deps ex4
